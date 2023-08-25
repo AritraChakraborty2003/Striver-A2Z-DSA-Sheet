@@ -2,6 +2,6 @@ public class Intro {
 
     public static void  main(String[] args){
 
-        System.out.println("Welcome to Striver's SDE Sheet");
+        System.out.println("Welcome to Striver's DSA Sheet");
     }
 }
