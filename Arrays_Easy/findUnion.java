@@ -1,10 +1,8 @@
 package Arrays_Easy;
 
 import java.awt.*;
-import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.*;
 import java.util.List;
-import java.util.Set;
 
 public class findUnion {
     public static void main(String[] args){
@@ -18,7 +16,7 @@ public class findUnion {
     }
     public static List< Integer > sortedArray(int []a, int []b) {
         // Write your code here
-        Set<Integer> st=new HashSet<Integer>();
+        Set<Integer> st=new TreeSet<Integer>();
 
         for(int it:a){
             st.add(it);
