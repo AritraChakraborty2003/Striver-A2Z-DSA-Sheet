@@ -2,7 +2,7 @@ package Sorting;
 
 public class QuickSort {
     public static void main(String[] args){
-        int[] arr={7,5,1,3};
+        int[] arr={5,3};
         System.out.print("Before Sorting...");
         for(int it:arr){
             System.out.print(it+" ");
@@ -33,7 +33,7 @@ public class QuickSort {
          int j=h;
          int pivot=a[l];
          while(j>i){
-             while(i<=h-1 && a[i]<=pivot)i++;
+             while(i<=h && a[i]<=pivot)i++;
              while(j>=l && a[j]>pivot)j--;
              if(j>i)
                  swap(a,j,i);
